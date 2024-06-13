@@ -7,7 +7,7 @@
         <input type="text" class="form-control" id="name" placeholder="이름을 입력하세요." name="name" autocomplete="off" :class="{ active: active.name }" v-model="result.name" />
       </div>
       <div class="mb-3 mt-3">
-        <label for="email" class="form-label">이메일:</label>
+        <label for="email" class="form-label">이메일333:</label>
         <input type="email" class="form-control" id="email" placeholder="이메일를 입력하세요." name="email" autocomplete="off" :class="{ active: active.email }" v-model="result.email" />
       </div>
       <div class="mb-3">
